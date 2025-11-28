@@ -1,6 +1,6 @@
 services: 
   greeting-service: 
-    image: ghcr.io/murphym2004/greeting-service/app:latest 
+    image: ghcr.io/murphym2004/GreetingService/app:latest 
     env_file: ./.env 
     ports: 
       - "8081:8081" 
