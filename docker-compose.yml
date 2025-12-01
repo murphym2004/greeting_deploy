@@ -1,6 +1,6 @@
 services: 
   greeting-service: 
-    image: ghcr.io/murphym2004/greetings-service/app:fddda15bb2f6c3c089593175125e1f6a2c2bf3e
+    image: ghcr.io/murphym2004/greetings-service/app:latest
 
     env_file: ./.env 
     ports: 
